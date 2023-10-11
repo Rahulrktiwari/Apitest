@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding :2px
+        }
+        h1 {
+            text-align: left;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .confirmation {
+            background-color: #cad1cb;
+            color: #030303;
+            text-align: left;
+            padding: 10px;
+            margin: 0;
+            border-radius: 5px;
+            width: 95%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> &lt- Booking Progress</h1>
+       
+        <div class="confirmation">
+            <h3>Your Booking is confirmed!</h3>
+            <p>Booking Id - <strong>X09SHJDG</strong></p>
+            <p>Transaction Date & Time - <strong>X09SHJDG</strong></p>
+            <p>Total Amount Paid - <strong>12,343</strong></p>
+            <p>Payment Mode - <strong>UPI</strong></p>
+        </div>
+       
+    </div>
+</body>
+</html>
