@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding: 2px;
+        }
+        h1 {
+            text-align: left;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .confirmation {
+            background-color: #cad1cb;
+            color: #030303;
+            text-align: left;
+            padding: 10px;
+            margin: 0;
+            border-radius: 5px;
+            width: 95%;
+        }
+        #flightdetails {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #fff;
+        }
+        .air-india-icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: url('air-india-icon.png') no-repeat;
+            background-size: cover;
+        }
+        .flight-info {
+            display: inline-block;
+            margin-left: 5px;
+        }
+        .flight-info strong {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> &lt- Booking Progress</h1>
+       
+        <div class="confirmation">
+            <h3>Your Booking is confirmed!</h3>
+            <p>Booking Id - <strong>X09SHJDG</strong></p>
+            <p>Transaction Date & Time - <strong>X09SHJDG</strong></p>
+            <p>Total Amount Paid - <strong>12,343</strong></p>
+            <p>Payment Mode - <strong>UPI</strong></p>
+        </div>
+
+        <div id="flightdetails">
+            
+            <img src="air-india.png" width="20px" height="20px" alt="airindiaimage">
+            
+            <div class="flight-info">
+                <strong>Air India  6E-16767</strong> 
+            </div>
+            <p><strong>PNR &nbsp;&nbsp; TGDQHM</strong> </p>
+            <p><strong>Invoice Number:</strong> INV5678</p>
+            <br>
+            <div class="flight-info">
+                <strong>Departure Time:</strong> 10:00 AM
+            </div>
+            <div class="flight-info">
+                <strong>Arrival Time:</strong> 11:45 AM
+            </div>
+            <div class="flight-info">
+                <strong>Duration:</strong> 1 hour 45 minutes
+            </div>
+        </div>
+    </div>
+</body>
+</html>
